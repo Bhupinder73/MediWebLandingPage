@@ -2,3 +2,103 @@
     margin: 0;
     padding: 0;
 }
+header .topHead{
+    background-color: #615EFC;
+    color: white;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .topHead .phoneCall, header .topHead .address{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.phoneCall p img, .address p img{
+    height: 20px;
+}
+.phoneCall p, .address p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 17px;
+}
+.topHead .address p{
+    cursor: pointer;
+}
+.topHead .phoneCall p{
+    cursor: pointer;
+}
+.topHead .phoneCall #normalCrsr{
+    cursor:inherit;
+}
+.topHead .phoneCall img{
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+header nav .leftNav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0px;
+}
+.leftNav #logo:hover{
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+}
+ul li:hover{
+    color: #615EFC;
+    cursor: pointer;
+}
+ul li:hover i{
+    transform: rotate(180deg);
+}
+.rightNav form{
+    display: flex;
+    gap: 15px;
+    position: relative;
+}
+.rightNav form button{
+    font-size: 17px;
+    background-color: #615EFC;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 25px;
+    transition: all 0.3s ease;
+}
+.rightNav form button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.rightNav form input{
+    width: 210px;
+    border: 1px solid #615efc6f;
+    border-radius: 50px;
+    padding: 0px 15px;
+    font-size: 15px;
+}
+.rightNav form ::placeholder{
+    font-size: 15px;
+}
+.rightNav form img{
+    height: 30px;
+    position: absolute;
+    right: 46%;
+    top: 7px;
+    cursor: pointer;
+}
+.rightNav form button i{
+    transform: rotate(-45deg);
+}
