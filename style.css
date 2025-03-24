@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 header .topHead{
     background-color: #615EFC;
@@ -57,6 +58,9 @@ ul{
     gap: 20px;
     font-size: 18px;
 }
+nav ul li{
+    transition: all 0.3s ease;
+}
 ul li:hover{
     color: #615EFC;
     cursor: pointer;
@@ -101,4 +105,110 @@ ul li:hover i{
 }
 .rightNav form button i{
     transform: rotate(-45deg);
+}
+.frontPage{
+    padding: 120px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./Images/frontPageBg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.frontPage .leftFrontPage{
+    padding-left: 100px;
+    width: 34%;
+}
+.frontPage .leftFrontPage #firstPara{
+    font-size: 17px;
+    color: rgb(132, 132, 132);
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.leftFrontPage #secondPara{
+    margin: 15px 0px;
+    line-height: 1.5rem;
+}
+.frontPage .leftFrontPage #firstPara img{
+    height: 26px;
+}
+.frontPage .leftFrontPage h1{
+    font-size: 90px;
+}
+.findDoc{
+    padding: 3px 3px;
+    border: 1px solid #615efc7c;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    background-color: white;
+}
+.findDoc select{
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    width: 125px;
+    padding: 0px 8px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #777373;
+    cursor: pointer;
+}
+.findDoc .firstOption{
+    width: 170px;
+    padding-left: 20px;
+}
+.findDoc select option{
+    font-size: 17px;
+}
+.findDoc .findDocBtn{
+    font-size: 16px;
+    color: white;
+    background-color: #615EFC;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 24px;
+    transition: all 0.3s ease;
+}
+.findDoc .findDocBtn:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.frontPage .rightFrontPage{
+    position: relative;
+    margin-right: 20px;
+}
+.frontPage .rightFrontPage #docImg{
+    height: 580px;
+    position: absolute;
+    top: -75px;
+    right: 0;
+}
+.docTag p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+}
+.docTag{
+    border: 1px solid #615efc7c;
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px 20px;
+    position: absolute;
+}
+.tagOne{
+    top: 170px;
+    right: 280px;
+}
+.tagTwo{
+    top: 370px;
+    right: 340px;
+}
+.tagThree{
+    top: 330px;
+    right: 40px;
 }
