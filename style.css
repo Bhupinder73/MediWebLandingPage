@@ -3,6 +3,14 @@
     padding: 0;
     font-family: sans-serif;
 }
+header{
+    max-width: 1519.2px;
+    margin: auto;
+}
+/* section{
+    max-width: 1519.2px;
+    margin: auto;
+} */
 header .topHead{
     background-color: #615EFC;
     color: white;
@@ -211,4 +219,27 @@ ul li:hover i{
 .tagThree{
     top: 330px;
     right: 40px;
+}
+.shortServices{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+    gap: 30px;
+}
+.shortServices .serviceBtn img{
+    height: 60px;
+}
+.shortServices .serviceBtn p{
+    font-size: 24px;
+}
+.shortServices .serviceBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 20px;
+    border: 1px solid #615efc6e;
+    border-radius: 10px;
+    width: 255px;
+    cursor: pointer;
 }
