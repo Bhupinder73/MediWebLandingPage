@@ -243,3 +243,73 @@ ul li:hover i{
     width: 255px;
     cursor: pointer;
 }
+.aboutUs{
+    display: flex;
+    padding: 0px 100px;
+}
+.aboutUs .leftAboutUs{
+    width: 50%;
+    position: relative;
+}
+.aboutUs .leftAboutUs .trustPilot{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.aboutUs .leftAboutUs .trustPilot #trustPara{
+    font-size: 14px;
+}
+.aboutUs .rightAboutUs{
+    width: 42%;
+}
+.aboutUs .rightAboutUs .aboutUsBtn{
+    display: inline-block;
+    border: 1px solid #615EFC;
+    color: #615EFC;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+.aboutUs .rightAboutUs h3{
+    font-size: 36px;
+    margin: 25px 0px;
+}
+.aboutUs .rightAboutUs #rightPara{
+    font-size: 16px;
+    color: rgb(112, 105, 105);
+    word-spacing: 1.5px;
+    line-height: 1.5rem;
+}
+.rightAboutUs .docAbout{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 65px;
+}
+.rightAboutUs .docAbout .aboutUsBtn2{
+    font-size: 17px;
+    color: white;
+    background-color: #615EFC;
+    padding: 15px 28px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+.aboutUsBtn2 i{
+    transform: rotate(-45deg);
+}
+.rightAboutUs .docAbout .aboutUsBtn2:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.rightAboutUs .docAbout .docProfileSign{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
