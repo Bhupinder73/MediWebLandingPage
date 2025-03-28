@@ -313,3 +313,78 @@ ul li:hover i{
     align-items: center;
     gap: 15px;
 }
+.ourServices{
+    display: flex;
+    padding: 100px 100px;
+    gap: 30px;
+} 
+.ourServices .leftServices{
+    width: 50%;
+}
+.leftServices .ourServicesBtn{
+    border: 1px solid #615EFC;
+    color: #615EFC;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.leftServices #servicesTitle{
+    font-size: 40px;
+    margin: 20px 0px;
+    letter-spacing: 0px;
+    word-spacing: -6px;
+    width: 350px;
+}
+.leftServices #servicesPara{
+    color: rgb(101, 96, 96);
+    line-height: 1.5rem;
+    padding-right: 10px;
+}
+.leftServices .bottomBoxes{
+    display: flex;
+    gap: 30px;
+}
+.bottomBoxes .Box{
+    border: 1px solid #615efc4e;
+    border-radius: 10px;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    transition: all 0.3s ease;
+}
+.bottomBoxes .Box:hover{
+    border-color: #615EFC;
+}
+.bottomBoxes .Box img{
+    margin-bottom: 20px;
+}
+.bottomBoxes .Box>p{
+    color: rgb(137, 137, 137);
+    line-height: 1.5rem;
+    padding-right: 25px;
+}
+.bottomBoxes .Box .learnMoreBtn{
+    display: inline-block;
+}
+.Box .learnMoreBtn:hover{
+    cursor: pointer;
+    color: #615EFC;
+}
+.Box .learnMoreBtn i{
+    transform: rotate(-45deg);
+    transition: all 0.3s ease;
+}
+.Box .learnMoreBtn:hover i{
+    transform: rotate(0deg);
+}
+
+
+.ourServices .rightServices{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
