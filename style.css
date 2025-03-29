@@ -320,6 +320,10 @@ ul li:hover i{
 } 
 .ourServices .leftServices{
     width: 50%;
+    background-image: url(./Images/servicesBG.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 40%;
 }
 .leftServices .ourServicesBtn{
     border: 1px solid #615EFC;
@@ -340,6 +344,7 @@ ul li:hover i{
     color: rgb(101, 96, 96);
     line-height: 1.5rem;
     padding-right: 10px;
+    margin-bottom: 70px;
 }
 .leftServices .bottomBoxes{
     display: flex;
@@ -347,6 +352,7 @@ ul li:hover i{
 }
 .bottomBoxes .Box{
     border: 1px solid #615efc4e;
+    background-color: white;
     border-radius: 10px;
     padding: 30px 25px;
     display: flex;
@@ -381,10 +387,100 @@ ul li:hover i{
     transform: rotate(0deg);
 }
 
-
 .ourServices .rightServices{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
+}
+.rightServices .Box{
+    border: 1px solid #615efc4e;
+    border-radius: 10px;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 15px;
+    width: 255.7px;
+    /* transition: all 0.3s ease; */
+}
+.rightServices .Box>p{
+    color: rgb(137, 137, 137);
+    line-height: 1.5rem;
+    padding-right: 25px;
+}
+.rightServices .Box img{
+    margin-bottom: 20px;
+}
+.rightServices .Box:hover{
+    border-color: #615EFC;
+}
+.whyChooseUs{
+    padding: 100px;
+    display: flex;
+    background-color: #F1F1FF;
+}
+.whyChooseUs .leftChooseUs{
+    width: 50%;
+}
+.leftChooseUs .WhyChooseUsBtn{
+    border: 1px solid #615EFC;
+    color: #615EFC;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.leftChooseUs #chooseUsTitle{
+    font-size: 40px;
+    margin: 20px 0px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    width: 350px;
+}
+.leftChooseUs #chooseUsPara{
+    color: rgb(101, 96, 96);
+    line-height: 1.5rem;
+}
+.leftChooseUs .featuresBoxes{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftChooseUs .featuresBoxes .Box{
+    display: flex;
+    align-items: center;
+    padding: 25px 15px;
+    gap: 15px;
+    border: 1px solid #615efcab;
+    border-radius: 10px;
+    width: 520px;
+}
+.featuresBoxes .Box .featureContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Box .featureContent h2{
+    font-size: 19px;
+}
+.Box .featureContent p{
+    color: rgb(101, 96, 96);
+    font-size: 15px;
+}
+.whyChooseUs .rightChooseUs{
+    width: 50%;
+    position: relative;
+    padding-top: 110px;
+}
+#docImage{
+    position: absolute;
+    top: 37px;
+    left: 30%;
+}
+.rightChooseUs .rightTimeClock{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
