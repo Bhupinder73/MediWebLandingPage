@@ -480,7 +480,27 @@ ul li:hover i{
     left: 30%;
 }
 .rightChooseUs .rightTimeClock{
+    color: white;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 25%;
+    left: 30px;
+}
+.rightTimeClock h1{
+    font-size: 70px;
+}
+.bottomClock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 35px;
+}
+.rightTelephone{
+    color: white;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
 }
