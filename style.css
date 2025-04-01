@@ -677,3 +677,74 @@ ul li:hover i{
     background-color: black;
     cursor: pointer;
 }
+.ourDoctors{
+    padding: 100px;
+    background-color: #F1F1FF;
+}
+.ourDoctors .ourDoctorsBtn{
+    padding: 8px 13px; 
+    font-size: 17px;
+    color: #615EFC;
+    border: 1px solid #615efc6b;
+    border-radius: 50px;
+    display: inline-block;
+}
+.ourDoctors .titleWithContent h1{
+    display: inline-block;
+    width: 50%; 
+    font-size: 35px;
+}
+.titleWithContent p{
+    width: 50%;
+    color: #858282;
+    line-height: 1.5rem;
+    word-spacing: 5px;
+}
+.ourDoctors .titleWithContent{
+    display: flex;
+    margin: 20px 0px;
+    gap: 100px;
+}
+.docCards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px; 
+}
+.docCards .card{
+    width: 295px;
+    /* border: 2px solid red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.docCards .card img{
+    width: 295px;
+    transition: all 0.3s ease;
+}
+.socialHandles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #615EFC;
+}
+.socialHandles i{      
+    cursor: pointer;
+}
+.docCards .card h2{
+    transition: all 0.3s ease;
+}
+.docCards .card h2:hover{
+    color: #615EFC;
+    cursor: pointer;
+}
+.card .docPhoto{
+    cursor: pointer;
+    overflow: hidden;
+    background-color: white; 
+    height: 335px;
+}
+.card:hover img{
+    transform: scale(1.05);
+}
