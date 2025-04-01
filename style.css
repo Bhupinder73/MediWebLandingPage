@@ -801,3 +801,44 @@ ul li:hover i{
 .clientDetails .clientName h2{
     font-size: 20px;
 }
+.bookAppointment{
+    margin: 0px auto 100px auto;
+    width: 1280px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* padding: 0px 100px 100px 100px; */
+    background-image: url(./Images/bookAppointmentBG.jpg);
+
+}
+.bookAppointment .bookAppointmentBtn{
+    padding: 8px 14px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    display: block;
+    width: 130.767px;
+    margin: auto;
+}
+.bookAppointment h1{
+    font-size: 55px;
+    color: white;
+    word-spacing: 1rem; 
+    text-align: center;
+}
+.bookAppointment .getAppointmentBtn{
+    color: #615EFC;
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px 20px;
+    display: block;
+    width: 120.1px;
+    margin: auto;
+    transition: all 0.3s ease;
+}
+.bookAppointment .getAppointmentBtn:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
