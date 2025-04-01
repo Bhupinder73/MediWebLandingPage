@@ -748,3 +748,56 @@ ul li:hover i{
 .card:hover img{
     transform: scale(1.05);
 }
+.clientFeedback{
+    padding: 100px;
+}
+.clientFeedback .clientFeedbackBtn{
+    color: #615EFC;
+    padding: 5px 14px;
+    border: 1px solid #615efc57;
+    border-radius: 50px;
+    display: block;
+    width: 115.617px;
+    margin: auto;
+}
+.clientFeedback h1{
+    font-size: 45px;
+    text-align: center;  
+    margin: 15px 0px; 
+}
+.clientFeedback .feedbacks{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    margin: 35px 0px;
+}
+.feedbacks .feedback{
+    /* border: 2px solid red; */
+    background-color: #F1F1FF;
+    border-radius: 10px;
+    width: 320px;
+    padding: 30px;
+    background-image: url(./Images/servicesBG.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.feedbacks .feedback #feedbackPara{    
+    color: black;
+    line-height: 1.5rem;
+    word-spacing: 3.5px;
+    letter-spacing: 0.5px;
+    margin: 20px 0px;
+}
+.feedback .clientDetails{
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 50px;
+}
+.clientDetails .clientName img{
+    height: 22px;
+}
+.clientDetails .clientName h2{
+    font-size: 20px;
+}
