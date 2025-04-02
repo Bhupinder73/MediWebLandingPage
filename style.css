@@ -6,6 +6,9 @@
 header{
     max-width: 1519.2px;
     margin: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
 }
 /* section{
     max-width: 1519.2px;
@@ -50,6 +53,7 @@ header nav{
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px;
+    background-color: white;
 }
 header nav .leftNav{
     display: flex;
@@ -841,4 +845,92 @@ ul li:hover i{
     background-color: black;
     cursor: pointer;
     color: white;
+}
+footer{
+    padding: 100px;
+    background-color: #111032;
+}
+footer .writeMail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.writeMail form{
+    position: relative;
+}
+.writeMail form input{
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #615EFC;
+    font-size: 17px;
+    width: 375px;
+    background-color: transparent;
+    color: white;
+}
+.writeMail form input::placeholder{
+    color: white;
+}
+.writeMail form button{
+    border: 1px solid #615EFC;
+    border-radius: 50px;
+    color: white;
+    background-color: #615EFC;
+    padding: 10px 20px; 
+    font-size: 17px;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    transition: all 0.3s ease;
+}
+.writeMail form button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+footer hr{
+    color: #615EFC;
+    margin: 40px auto;
+}
+footer .mainFooter{
+    display: flex;  
+    justify-content: space-between;
+}
+.mainFooter .mainFooterDiv{
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+    color: white; 
+}
+.mainFooterDiv .orderedList{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.mainFooter .mainFooterDiv h2{
+    text-decoration: underline;
+}
+.mainFooter a{
+    transition: all 0.3s ease;
+}
+.mainFooter a:hover{
+    color: #615EFC;
+    cursor: pointer;
+}
+.mainFooter .contactDiv p{
+    line-height: 1.5rem; 
+}
+.bottomFooter{
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #201F57;
+}
+.bottomFooter a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.bottomFooter a:hover{
+    cursor: pointer;
+    color: #615EFC;
 }
