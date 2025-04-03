@@ -141,6 +141,64 @@ ul li:hover i{
 .pagesNav:hover{
     display: flex;
 }
+.doctorsNav{
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    font-size: 17px;
+    background-color: white;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    box-shadow: 0px 12px 25px 5px gray;
+    position: absolute;
+    top: 52px;
+    left: 500px;
+    padding: 5px;
+}
+.doctorsNav a{
+    padding: 6px 10px;
+    width: 150px;
+}
+.doctorsNav a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #615EFC;
+}
+#doctorsHandle:hover ~.doctorsNav{
+    display: flex;
+}
+.doctorsNav:hover{
+    display: flex;
+}
+.blogNav{
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    font-size: 17px;
+    background-color: white;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    box-shadow: 0px 12px 25px 5px gray;
+    position: absolute;
+    top: 52px;
+    left: 640px;
+    padding: 5px;
+}
+.blogNav a{ 
+    padding: 6px 10px;
+    width: 150px;
+}
+.blogNav a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #615EFC;
+}
+#blogHandle:hover ~.blogNav{
+    display: flex;
+}
+.blogNav:hover{
+    display: flex;
+}
 
 
 
