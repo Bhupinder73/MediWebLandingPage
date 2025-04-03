@@ -108,6 +108,41 @@ ul li:hover i{
 .homeNav:hover{
     display: flex;
 }
+.pagesNav{
+    display: none;
+    /* display: flex; */
+    font-size: 17px;
+    background-color: white;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    box-shadow: 0px 12px 25px 5px gray;
+    position: absolute;
+    top: 52px;
+    left: 225px;
+    padding: 15px;
+}
+.pagesNav div{
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.pagesNav a{
+    padding: 6px 10px;
+}
+.pagesNav a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #615EFC;
+}
+#pagesHandle:hover ~.pagesNav{
+    display: flex;
+}
+.pagesNav:hover{
+    display: flex;
+}
+
+
 
 
 
