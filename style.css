@@ -199,16 +199,86 @@ ul li:hover i{
 .blogNav:hover{
     display: flex;
 }
-
-
-
-
-
-
-
-
-
-
+.serviceNav{
+    position: absolute;
+    background-color: white;
+    display: none;
+    /* display: flex; */
+    z-index: 1;
+    box-shadow: 0px 12px 25px 5px gray;
+    top: 52px;
+    left: 120px; 
+}
+.serviceNav .leftServiceNav{
+    width: 900px; 
+    padding: 20px;
+}
+.serviceNav .leftServiceNav h2{
+    color: #615EFC;
+    font-size: 25px;
+}
+.serviceNav .leftServiceNav hr{
+    color: #615EFC; 
+    margin: 20px 0px;
+}
+.leftServiceNav .serviceNavDivs{
+    display: flex;
+    justify-content: space-between;
+}
+.leftServiceNav .serviceNavDivs div{
+    display: flex; 
+    flex-direction: column;
+    gap: 4px;
+    width: 215px;
+}
+.serviceNavDivs div a{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    padding: 8px 4px;
+    transition: all 0.3s ease;
+}
+.serviceNavDivs div a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #615EFC;
+}
+.serviceNavDivs div a:hover img{
+    filter: brightness(0) saturate(100%) invert(97%) sepia(3%) saturate(0%) hue-rotate(288deg) brightness(103%) contrast(100%);
+}
+.rightServiceNav{
+    background-image: url(./Images/serviceNavBG.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+}
+.rightServiceNav .appointmentButton{
+    font-size: 17px;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color: #615EFC;
+    display: inline-block;
+    transition: all 0.3s ease;
+    margin: 15px 0px;
+}
+.rightServiceNav .appointmentButton:hover{
+    color: #615EFC;
+    background-color: white;
+    cursor: pointer;
+}
+.rightServiceNav h2{
+    margin-top: 180px;
+    color: #615EFC;
+}
+#serviceHandle:hover ~.serviceNav{
+    display: flex;
+}
+.serviceNav:hover{
+    display: flex;
+}
 .rightNav form{
     display: flex;
     gap: 15px;
@@ -248,6 +318,8 @@ ul li:hover i{
     transform: rotate(-45deg);
 }
 .frontPage{
+    max-width: 1519.2px;
+    margin: auto;
     padding: 120px 0px;
     display: flex;
     justify-content: space-between;
@@ -354,6 +426,8 @@ ul li:hover i{
     right: 40px;
 }
 .shortServices{
+    max-width: 1519.2px;
+    margin: auto;
     display: flex;
     padding: 100px 0px;
     justify-content: center;
@@ -377,6 +451,8 @@ ul li:hover i{
     cursor: pointer;
 }
 .aboutUs{
+    max-width: 1319.2px;
+    margin: auto;
     display: flex;
     padding: 0px 100px;
 }
@@ -447,6 +523,8 @@ ul li:hover i{
     gap: 15px;
 }
 .ourServices{
+    max-width: 1319.2px;
+    margin: auto;
     display: flex;
     padding: 100px 100px;
     gap: 30px;
@@ -521,7 +599,7 @@ ul li:hover i{
 }
 
 .ourServices .rightServices{
-    width: 50%;
+    max-width: 51%;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -549,6 +627,8 @@ ul li:hover i{
     border-color: #615EFC;
 }
 .whyChooseUs{
+    max-width: 1319.2px;
+    margin: auto;
     padding: 100px;
     display: flex;
     background-color: #F1F1FF;
@@ -638,6 +718,8 @@ ul li:hover i{
     bottom: 40px;
 }
 .appointment{
+    max-width: 1319.2px;
+    margin: auto;
     display: flex;
     padding: 100px;
 }
@@ -724,6 +806,8 @@ ul li:hover i{
     object-fit: cover;
 }
 .pricingPlan{
+    max-width: 1319.2px;
+    margin: auto;
     padding: 0px 100px;
     padding-bottom: 100px;
 }
@@ -811,6 +895,8 @@ ul li:hover i{
     cursor: pointer;
 }
 .ourDoctors{
+    max-width: 1319.2px;
+    margin: auto;
     padding: 100px;
     background-color: #F1F1FF;
 }
@@ -882,6 +968,8 @@ ul li:hover i{
     transform: scale(1.05);
 }
 .clientFeedback{
+    max-width: 1319.2px;
+    margin: auto;
     padding: 100px;
 }
 .clientFeedback .clientFeedbackBtn{
@@ -935,6 +1023,8 @@ ul li:hover i{
     font-size: 20px;
 }
 .bookAppointment{
+    /* max-width: 1519.2px; */
+    /* margin: auto; */
     margin: 0px auto 100px auto;
     width: 1280px;
     height: 420px;
@@ -976,6 +1066,8 @@ ul li:hover i{
     color: white;
 }
 footer{
+    max-width: 1319.2px;
+    margin: auto;
     padding: 100px;
     background-color: #111032;
 }
@@ -1048,6 +1140,8 @@ footer .mainFooter{
     line-height: 1.5rem; 
 }
 .bottomFooter{
+    max-width: 1519.2px;
+    margin: auto;
     padding: 20px 0px;
     text-align: center;
     color: white;
